@@ -1,0 +1,162 @@
+body{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 32px;
+}
+
+header{
+  background-color: #ffffff;
+  width: 100%;
+  overflow: auto;
+}
+
+#header-div{
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#name-section{
+  float: left;
+  background-color: #4aaaa5;
+}
+
+h1
+{
+  color: #ffffff;
+  padding: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #4aaaa5;
+}
+
+#link-section{
+  float:right;
+  padding: 30px 0;
+}
+
+#profile-img{
+  float:left;
+  padding: 0 25px 0 0;
+  width: 200px;
+  height: 180px;
+}
+
+#page-div{
+  width: 100%;
+  background-image: url(../images/background.png);
+  overflow: auto;
+}
+
+#content-div{
+  color: #777777;
+  margin: 0 auto;
+  width: 960px; 
+  overflow: auto;
+}
+
+#main-section{
+  padding: 30px 30px;
+  margin: 40px auto;
+  float: left;
+  width: 590px;
+  height: 480px;
+  background-color: #ffffff;
+}
+
+#aboutme-content-div{
+  margin: 25px 0 0 0;
+}
+
+#side-section{
+  float: right;
+  padding: 30px 30px;
+  width: 210px;
+  height: 140px;
+  margin: 40px 0px 0px 40px;
+  background-color: #ffffff;
+}
+
+#media-icons-section{
+  margin: 25px 0;
+}
+
+a{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
+
+#about-link{
+  margin: 0px 10px 0px 0px;
+}
+
+#portfolio-link{
+  margin: 0px 10px 0px 10px;
+}
+
+#contact-link{
+  margin: 0px 0px 0px 10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3{
+  color: #4aaaa5;
+  font-weight: bold;
+  /*margin: 0 0 20px 0;*/
+}
+
+h2{
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+h3{
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+hr{
+  margin: 0;
+  border: 1px solid #cccccc;
+}
+
+.vertical-division{
+  border-style: solid;
+  border-width: 0 1px 0px 0px;
+  border-color: #cccccc;
+}
+
+.media-icons{
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  border: 0px;
+  float: left;
+}
+
+#git-icon, #linkedin-icon{
+  padding-right: 15px;
+}
+
+footer{
+  display: block;
+  background-color: #666666;
+  width: 100%;
+  padding:30px 0;
+  border-style: solid;
+  border-width: 10px 0px 0px 0px;
+  border-color: #4aaaa5;
+  color: #cccccc;
+  text-align: center;
+  clear: both;
+  font-size: 12px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear:both;
+}

@@ -47,7 +47,7 @@ h1
   overflow: auto;
 }
 
-#content-div{
+#content-section{
   color: #777777;
   margin: 0 auto;
   width: 960px; 
@@ -59,12 +59,28 @@ h1
   margin: 40px auto;
   float: left;
   width: 590px;
-  height: 480px;
+  height: 100%;
   background-color: #ffffff;
 }
 
+
+
+/*#main-section{
+  padding: 30px 30px;
+  margin: 40px auto;
+  float: left;
+  width: 650px;
+  height: 100%;
+  background-color: #ffffff;
+}*/
+
+/*#main-heading{
+  padding: 30px 30px;
+}*/
+
 #aboutme-content-div{
   margin: 25px 0 0 0;
+  /*padding: 0 30px 30px 30px;*/
 }
 
 #side-section{
@@ -105,7 +121,6 @@ h1,h2,h3,h4,h5,h6{
 h2, h3{
   color: #4aaaa5;
   font-weight: bold;
-  /*margin: 0 0 20px 0;*/
 }
 
 h2{
@@ -160,3 +175,69 @@ footer{
   display: block;
   clear:both;
 }
+
+.project{
+width: 280px;
+height: 200px;
+background-color: yellow;
+margin-top: 30px;
+  background-size: 280px 200px;
+}
+
+.project-left{
+  float: left;
+}
+
+.project-right{
+  float: right;
+}
+
+.project-name{
+  padding: 10px 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  margin-top: 140px;
+}
+
+#portfolio-gallery{
+  overflow: auto;
+}
+
+#cheesy-puff-div{
+  background-image: url(../images/chess.png);
+}
+
+#cats-div{
+  background-image: url(../images/chess.png);
+}
+
+#configuration-div{
+  background-image: url(../images/chess.png);
+}
+
+#rockpaper-div{
+  background-image: url(../images/chess.png);
+}
+
+#chess-div{
+  background-image: url(../images/chess.png);
+}
+
+#contact-div{
+  margin-top: 20px;
+}
+
+input[type=text]
+{
+  width: 100%;
+  height: 30px;
+}
+
+input[type=submit]
+{
+
+}
+

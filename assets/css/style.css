@@ -88,16 +88,20 @@ a{
   text-decoration: none;
 }
 
+a:hover{ 
+  color: #4aaaa5;
+}
+
 #about-link{
-  margin: 0px 10px 0px 0px;
+  margin: 0px 20px 0px 0px;
 }
 
 #portfolio-link{
-  margin: 0px 10px 0px 10px;
+  margin: 0px 20px 0px 20px;
 }
 
 #contact-link{
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 20px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -165,9 +169,9 @@ footer{
 .project{
   width: 280px;
   height: 200px;
-  background-color: yellow;
   margin-top: 30px;
-  background-size: 280px 200px;
+  /*background-size: 280px 200px;*/
+  position: relative;
 }
 
 .project-left{
@@ -185,31 +189,15 @@ footer{
   font-size: 22px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
-  margin-top: 140px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  pointer-events: none;
 }
 
-#portfolio-gallery{
-  overflow: auto;
-}
-
-#cheesy-puff-div{
-  background-image: url(../images/chess.png);
-}
-
-#cats-div{
-  background-image: url(../images/chess.png);
-}
-
-#configuration-div{
-  background-image: url(../images/chess.png);
-}
-
-#rockpaper-div{
-  background-image: url(../images/chess.png);
-}
-
-#chess-div{
-  background-image: url(../images/chess.png);
+.project-image{
+  width: 280px;
+  height: 200px;
 }
 
 #contact-div{

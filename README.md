@@ -1,7 +1,7 @@
 ------------------------
 PROJECT: Basic Portfolio
 ------------------------
-This is a project for showcasing the basic portfolio. 
+This is a project for showcasing the basic portfolio using plain html and css. 
 It includes three pages 'About Me', 'Portfolio' and 'Contact Me'.
 A gallery of projects are showcased in the portfolio page, clicking them will lead to the atual project location.
 
